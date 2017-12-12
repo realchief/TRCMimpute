@@ -28,7 +28,7 @@ def random_normal(theta=(0, 1), shape=(5, 5), missingness="mcar", thr=0.2,
     return raw_data
 
 
-def test_data(mask=np.zeros((3, 3), dtype=bool)):
+def custom_data(mask=np.zeros((3, 3), dtype=bool)):
 
     shape = np.shape(mask)
     data = np.reshape(np.arange(np.product(shape)), shape).astype("float")

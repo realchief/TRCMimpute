@@ -20,15 +20,6 @@ class Corruptor:
         output = data_1d.reshape(self.shape)
         return output
 
-    def mar(self):
-        """ Overwrites values with MAR placed NaN's """
-        pass
-
-    def mnar(self):
-        """ Overwrites values with MNAR placed NaN's """
-        pass
-
     def complete(self):
-        """ Do nothing to the data """
         output = self.data
         return output
