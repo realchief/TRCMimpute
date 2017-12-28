@@ -23,6 +23,7 @@ print(y_interpolated)
 
 x = [datetime.strptime(elem, '%Y-%m-%d %H:%M:%S') for elem in x]
 (fig, ax) = pyplot.subplots(1, 1)
+
 ax.plot(x, y_interpolated)
 
 pyplot.show()
